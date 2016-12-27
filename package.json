@@ -1,0 +1,52 @@
+{
+  "name": "vuepack-bootstrap-example",
+  "version": "0.1.0",
+  "description": "Simple Example Using Vuepack and Bootstrap-Vue",
+  "main": "client/index.js",
+  "scripts": {
+    "test": "echo lol",
+    "build": "webpack --config build/webpack.prod.js",
+    "dev": "node build/server.js",
+    "lint": "eslint client/* --ext .js --ext .vue"
+  },
+  "author": "pi0 <pyapar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-vue": "latest",
+    "promise-polyfill": "^6.0.2",
+    "tether": "latest",
+    "vue": "^2.1.0",
+    "vue-router": "^2.0.0",
+    "vuex": "^2.0.0",
+    "vuex-router-sync": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "babel-core": "^6.16.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-syntax-jsx": "^6.13.0",
+    "babel-plugin-transform-vue-jsx": "^3.1.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-1": "^6.13.0",
+    "chalk": "^1.1.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "cross-env": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^3.6.0",
+    "eslint-config-vue": "latest",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.3",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "postcss-loader": "^0.9.1",
+    "postcss-nested": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.3",
+    "webpack": "2.2.0-rc.1",
+    "webpack-dev-middleware": "^1.8.1",
+    "webpack-hot-middleware": "^2.12.2"
+  }
+}
